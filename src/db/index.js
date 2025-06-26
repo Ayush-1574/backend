@@ -23,3 +23,17 @@ const connectDB = async () => {
 }
 
 export default connectDB
+
+
+/* 
+
+const connectDB = async () => {
+    try{
+    await mongoose.connect("url/name ");
+    
+    }
+    catch(error){
+    }
+    }
+
+*/
